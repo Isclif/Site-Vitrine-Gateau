@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Oswald:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Edu NSW ACT Foundation', sans-serif;
+}
+strong{
+    font-size: 30px;
+    color: rgb(71, 7, 7);
+}
+/*
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid #333;
+}
+
+nav h1{
+    color: rgb(71, 7, 7);
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 270px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 30px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+nav .onglets a:hover{
+    color: rgb(211, 14, 14);
+}*/
+.flottant {
+    padding-left: 1100px;
+    position: absolute;
+    position: fixed;
+    padding-top: 400px;
+}
+
+.flottant button{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    box-shadow: #000 5px 5px;
+    font-size: 30px;
+    color: #000;
+}
+/*
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: url(images/10.jpg);
+    background-size: cover;
+    color: azure;
+    padding: 40px;
+}
+
+header h1{
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+
+header h4{
+    margin-top: 50px;
+    font-size: 20px;
+    border-bottom: 1px solid #fff
+}
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+*/
+.fa-angle-left{
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+.fa-angle-right{
+    font-size: 50px;
+    padding-top: 200px;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content h1{
+    text-align: center;
+    font-size: 40px;
+    border-top: #000 2px solid;
+}
+.main .content .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.main .content .card .left{
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: #000;
+    color: beige;
+}
+.main .content .card.right{
+    flex: 0 0 70%;
+}
+.main .content .card .right img{
+    height: 300px;
+    width: 400px;
+}
+
+footer{
+    margin-top: 40px;
+    border-top: rgb(255, 250, 250) solid 5px;
+    border-left: rgb(91, 89, 89) solid 5px;
+    border-right: rgb(91, 89, 89) solid 5px;
+    border-bottom: rgb(91, 89, 89) solid 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 30px 100px;
+}
+footer h1{
+    border-bottom: 2px solid #fff;
+    /*width: 17%;*/
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer .services .service{
+    margin-left: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer p a{
+    margin-left: 400px;
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+}
+footer #contact{
+    color: rgb(116, 124, 124);
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 15px;
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 15px;
+        margin-bottom: 20px;
+        margin-top: 15px;
+    }
+    
+    .fa-angle-left{
+        font-size: 25px;
+        padding-top: 70px;
+    }
+    
+    .fa-angle-right{
+        font-size: 25px;
+        padding-top: 70px;
+    }
+
+    .main .card{
+        margin: 10px;
+    }
+    .main .content .card .rigth .img{
+        height: 200px;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
+    }
+
+    footer h1{
+        border-bottom: 2px solid #fff;
+        /*width: 50%;*/
+    }
+    footer p a{
+        margin-left: 60px;
+        color: #333;
+        text-decoration: none;
+        font-size: 15px;
+    }
+    .flottant {
+        padding-left: 310px;
+        position: absolute;
+        position: fixed;
+        padding-top: 850px;
+    }
+}
